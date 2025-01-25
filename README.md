@@ -1,80 +1,36 @@
-# Shalalalaa.github.io
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## 项目目标和流程
+## Getting Started
 
-1. 规划你的网站
+First, run the development server:
 
-- 确定内容和布局：决定你想在网站上展示哪些内容，例如个人简介、工作经历、教育背景、项目展示、联系方式等。同时，考虑你想要的网站布局和设计。
-- 设计网站结构：思考你希望如何组织这些内容，可能的结构包括首页、关于我、经历、项目展示、博客等。
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-2. 选择技术栈
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- 前端技术：HTML、CSS和JavaScript是构建网页的基础。根据你的需要，也可以选择框架或库，如React、Vue或Angular，来帮助开发。
-- 后端和数据库连接：由于你打算使用Notion作为数据库，你需要了解如何通过Notion的API来读取数据。目前，Notion提供了官方API，可以让你读取和写入数据。
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-3. 学习Notion API
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-- 访问Notion的开发者文档，了解如何获取API密钥、认证方法以及如何通过API读取数据。
-- 根据Notion API的指导，开始实验读取你Notion中的数据，比如你的笔记。
+## Learn More
 
-4. 开发网站
+To learn more about Next.js, take a look at the following resources:
 
-- 前端开发：根据你的设计开始编写HTML、CSS和JavaScript代码。如果使用框架，根据框架的文档进行开发。
-- 集成Notion API：使用JavaScript或你选择的后端语言通过Notion API获取数据。你可能需要写一些逻辑来处理数据，使其以卡片的形式展现在网页上，以及点击卡片时显示笔记内容的逻辑。
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-5. 部署网站
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-- 选择托管服务：有很多网站托管服务，如GitHub Pages、Vercel、Netlify等，它们通常对静态网站提供免费托管。
-- 部署网站：将你的网站代码上传到托管服务，遵循其指导完成网站部署。
+## Deploy on Vercel
 
-6. 测试和优化
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-- 在不同的设备和浏览器上测试你的网站，确保兼容性和响应式设计。
-- 根据反馈对网站进行优化。
-
-## 学习如何编写MD文件
-### 段落和换行
-##### 直接编写的文本会被视为段落。在Markdown中，段落之间通过一个或多个空白行来分隔。如果你想在不开始新段落的情况下进行换行，可以在行尾添加两个空格然后回车。
-### 粗体或斜体
-##### 粗体：将文本包围在两个星号**或两个下划线__中。例如：**粗体** 或 __粗体__。
-斜体：将文本包围在一个星号*或一个下划线_中。例如：*斜体* 或 _斜体_。
-
-### 列表
-#### 无序列表：使用星号*、加号+或减号-开始每一项。例如：
-
-- 项目1
-- 项目2
-- 项目3
-  
-#### 有序列表：使用数字加点号1. 2. 3.等。例如：
-
-1. 第一步
-2. 第二步
-3. 第三步
-
-### 引用
-##### 引用文本前面使用>。例如：
-
-> 这是一段引用文本。
-
-### 表格
-##### 使用|来分隔不同的单元格，使用-来分隔表头和其他行。例如：
-
-| 标题1 | 标题2 | 标题3 |
-|-------|-------|-------|
-| 单元格1 | 单元格2 | 单元格3 |
-| 单元格4 | 单元格5 | 单元格6 |
-
-### 水平线
-##### 使用三个或更多的星号***、减号---或下划线___来创建水平线。例如：
-
----
-
-
-
-
-
-
-
-
-
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
