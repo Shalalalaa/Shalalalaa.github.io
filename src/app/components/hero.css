@@ -1,0 +1,23 @@
+.hero_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 适配全屏 */
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .text-content {
+    z-index: 1;
+    color: black; /* 确保文本可见 */
+  }
+  
+  .canvas-container {
+    width: 100vw; /* 让 Canvas 充满屏幕 */
+    height: 80vh; /* 保证适应不同设备 */
+  }
+  
+  canvas {
+    display: block;
+  }
+  
