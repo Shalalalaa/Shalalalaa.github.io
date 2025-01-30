@@ -1,11 +1,19 @@
-.hero_section {
+/* .hero_section {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* 适配全屏 */
+    height: 100vh; 
     flex-direction: column;
     text-align: center;
+  } */
+
+  .hero-section {
+    background-image: url('/grid-pattern.svg');
+    background-size: cover;
+    background-position: center;
   }
+  
+
   
   .text-content {
     z-index: 1;
